@@ -1,0 +1,10 @@
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border: 10px solid turquoise;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}

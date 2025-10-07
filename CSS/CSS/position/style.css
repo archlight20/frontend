@@ -1,0 +1,35 @@
+*{
+    height: 200vh;
+}
+.boxes{
+    width: 400px;
+    height: 400px;
+    margin: 200px auto;
+    background-color: bisque;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+}
+.green{
+    background-color: green;
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+}
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 200px;
+}

@@ -1,0 +1,23 @@
+nav{
+    border: 1px solid black;
+    pad: 15px;
+    background-color: lemonchiffon;
+}
+li{
+    display: inline;
+    margin: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+ul{
+    text-align: end;
+}
+/* ul{
+    text-align: center;
+} */
+li:hover{
+    background-color: rgba(0, 255, 170, 0.538);
+    color: rgb(255, 0, 0);
+    font-family: fantasy;
+
+}
