@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <style>
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div>
+      <button id="startbutton" onclick="timerstart()">start</button>
+      <button id="stopbutton" onclick="stopwatch()">stop</button>
+      <h1 id="idh1">0</h1>
+      <h1>:</h1>
+      <h1 id="idh12">0</h1>
+      <h1>:</h1>
+      <h1 id="idh13">0</h1>
+    </div>
+    <button onclick="resetwatch()">reset</button>
+    <button onclick="addvalues()">add</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

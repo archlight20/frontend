@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+    <style> 
+
+
+    .inputboxes{
+        width: 70vw;
+        background-color: white;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #titlebox{
+        text-align: center;
+        padding: 5px;
+        font-size: 4vw;
+    border-radius: 12px;
+
+    }
+    #descriptionbox{
+        text-align: center;
+        padding: 5px;
+        font-size: 4vw;
+    border-radius: 12px;
+    }
+
+
+        #clickmebutton{
+    background-color: rgb(33, 33, 66);
+    color: beige;
+    padding: 1vw 23vw;
+    margin: 5px;
+    border-radius: 10px;
+
+    
+}
+
+
+
+    #deletebutton{
+    background-color: crimson;
+    color: beige;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.resutdes{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 75%;
+   background-color: rgb(179, 179, 179);
+    text-align: center;
+        padding: 5px;
+        /* font-size: 4vw; */
+    border-radius: 12px;
+    margin: 10px;
+
+}
+.marginclass{
+    margin: 10px;
+}
+
+#deletebutton{
+    background-color: rgb(236, 75, 107);
+    font-size: 38px;
+    padding: 0% 2%;
+     border-radius: 57px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="inputboxes">
+            <h1>DAILY GOALS</h1> <br>
+            <input  type="text" id="titlebox" placeholder="Title" class="marginclass">
+             <!-- <br> -->
+            <input  type="text" id="descriptionbox" placeholder="Description" class="marginclass"> 
+            <!-- <br> -->
+            <button id="clickmebutton">click me </button class="marginclass">
+             <!-- <br> -->
+        
+            <div class="resutdes" >
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit consequatur veritatis dolorum sint vero provident dignissimos corrupti tenetur repellendus, explicabo totam inventore magnam consectetur earum facere labore possimus asperiores ullam eaque incidunt sunt amet?</p>
+                <button id="deletebutton"  >-</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <button id="deletebutton">delete</button> -->
+    
+    <script src="./main.js"></script>
+</body>
+</html>
